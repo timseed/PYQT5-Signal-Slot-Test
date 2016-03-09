@@ -12,19 +12,15 @@ class Ui_Form(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(400, 300)
-        self.N1 = QtWidgets.QPlainTextEdit(Form)
-        self.N1.setGeometry(QtCore.QRect(70, 50, 104, 79))
+        self.N1 = QtWidgets.QTextEdit(Form)
+        self.N1.setGeometry(QtCore.QRect(50, 40, 104, 79))
         self.N1.setObjectName("N1")
         self.N2 = QtWidgets.QTextEdit(Form)
-        self.N2.setGeometry(QtCore.QRect(240, 50, 104, 79))
+        self.N2.setGeometry(QtCore.QRect(220, 40, 104, 79))
         self.N2.setObjectName("N2")
-        self.ANS = QtWidgets.QTextEdit(Form)
-        self.ANS.setGeometry(QtCore.QRect(100, 180, 231, 79))
-        self.ANS.setReadOnly(True)
-        self.ANS.setObjectName("ANS")
-        self.addButton = QtWidgets.QPushButton(Form)
-        self.addButton.setGeometry(QtCore.QRect(150, 140, 114, 32))
-        self.addButton.setObjectName("addButton")
+        self.btnCalc = QtWidgets.QPushButton(Form)
+        self.btnCalc.setGeometry(QtCore.QRect(130, 140, 114, 32))
+        self.btnCalc.setObjectName("btnCalc")
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
@@ -32,15 +28,5 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
-        self.addButton.setText(_translate("Form", "Add"))
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    Form = QtWidgets.QWidget()
-    ui = Ui_Form()
-    ui.setupUi(Form)
-    Form.show()
-    sys.exit(app.exec_())
+        self.btnCalc.setText(_translate("Form", "PushButton"))
 

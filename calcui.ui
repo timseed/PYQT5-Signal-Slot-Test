@@ -13,11 +13,11 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QPlainTextEdit" name="N1">
+  <widget class="QTextEdit" name="N1">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>50</y>
+     <x>50</x>
+     <y>40</y>
      <width>104</width>
      <height>79</height>
     </rect>
@@ -26,43 +26,27 @@
   <widget class="QTextEdit" name="N2">
    <property name="geometry">
     <rect>
-     <x>240</x>
-     <y>50</y>
+     <x>220</x>
+     <y>40</y>
      <width>104</width>
      <height>79</height>
     </rect>
    </property>
   </widget>
-  <widget class="QTextEdit" name="ANS">
+  <widget class="QPushButton" name="btnCalc">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>180</y>
-     <width>231</width>
-     <height>79</height>
-    </rect>
-   </property>
-   <property name="readOnly">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="addButton">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
+     <x>130</x>
      <y>140</y>
      <width>114</width>
      <height>32</height>
     </rect>
    </property>
    <property name="text">
-    <string>Add</string>
+    <string>PushButton</string>
    </property>
   </widget>
  </widget>
  <resources/>
  <connections/>
- <slots>
-  <slot>MyFunction()</slot>
- </slots>
 </ui>
