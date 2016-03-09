@@ -36,14 +36,27 @@
   <widget class="QPushButton" name="btnCalc">
    <property name="geometry">
     <rect>
-     <x>130</x>
-     <y>140</y>
+     <x>140</x>
+     <y>220</y>
      <width>114</width>
      <height>32</height>
     </rect>
    </property>
    <property name="text">
     <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="RESULT">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>120</y>
+     <width>104</width>
+     <height>79</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
    </property>
   </widget>
  </widget>

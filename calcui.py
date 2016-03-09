@@ -19,8 +19,12 @@ class Ui_Form(object):
         self.N2.setGeometry(QtCore.QRect(220, 40, 104, 79))
         self.N2.setObjectName("N2")
         self.btnCalc = QtWidgets.QPushButton(Form)
-        self.btnCalc.setGeometry(QtCore.QRect(130, 140, 114, 32))
+        self.btnCalc.setGeometry(QtCore.QRect(140, 220, 114, 32))
         self.btnCalc.setObjectName("btnCalc")
+        self.RESULT = QtWidgets.QTextEdit(Form)
+        self.RESULT.setGeometry(QtCore.QRect(140, 120, 104, 79))
+        self.RESULT.setReadOnly(True)
+        self.RESULT.setObjectName("RESULT")
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
