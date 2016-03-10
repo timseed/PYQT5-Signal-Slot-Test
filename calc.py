@@ -17,6 +17,7 @@ class calc(Ui_Form):
         self.N1.setText("123")
         self.N2.setText("333")
         self.btnCalc.clicked.connect(self.chk_fun)
+
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
