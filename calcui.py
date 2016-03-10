@@ -25,6 +25,9 @@ class Ui_Form(object):
         self.RESULT.setGeometry(QtCore.QRect(140, 140, 104, 79))
         self.RESULT.setReadOnly(True)
         self.RESULT.setObjectName("RESULT")
+        self.btnProcess = QtWidgets.QPushButton(Form)
+        self.btnProcess.setGeometry(QtCore.QRect(260, 140, 114, 32))
+        self.btnProcess.setObjectName("btnProcess")
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
@@ -33,4 +36,5 @@ class Ui_Form(object):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
         self.btnCalc.setText(_translate("Form", "PushButton"))
+        self.btnProcess.setText(_translate("Form", "Process"))
 
