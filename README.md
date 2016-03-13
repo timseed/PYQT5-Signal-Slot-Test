@@ -84,10 +84,7 @@ Before I went any further with some development tasks, I wanted to make sure tha
 * Link a Button (or QT Object) to some custom method
 * Create a detached process - that could do something
 * Create a custom **signal** - and attach it to a custom **slot**
-
-What I have not yet tried is
-
-* Sending signals from/to differenc classes
-* cleanly stopping detached processes
+* Create QThread based class (This can emit Signals for the QApp)
+* Linked Thread's Signal to Widgets Slot
 
 
